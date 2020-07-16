@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Own Thermometer</string>
+    <string name="n_a_c">n/a°C</string>
+    <string name="more_data"><![CDATA[more data >]]></string>
+    <string name="use_f_instead_of_c">Use °F instead of °C</string>
+    <string name="thermometer">Thermometer</string>
+    <string name="data">Data</string>
+</resources>

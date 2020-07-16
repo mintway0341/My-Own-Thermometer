@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/rec1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/data_rec"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Connect"
+            android:textSize="20dp"
+            android:textColor="@color/btn_text_color"
+            android:fontFamily="@font/manrope_bold"
+            android:textAllCaps="false"
+            android:background="@drawable/rec_gradation" />
+
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/btnConnect"
+            android:layout_marginTop="10dp"
+            android:text="Send"
+            android:textSize="20dp"
+            android:textColor="@color/btn_text_color"
+            android:fontFamily="@font/manrope_bold"
+            android:textAllCaps="false"
+            android:background="@drawable/rec_gradation" />
+    </LinearLayout>
+
+</RelativeLayout>

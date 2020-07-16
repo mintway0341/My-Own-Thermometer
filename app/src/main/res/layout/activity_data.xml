@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <ImageView
+        android:id="@+id/rec1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/data_rec"/>
+
+    <TextView
+        android:id="@+id/txt_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/data"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/manrope_extrabold" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/data_btn"/>
+
+    <ListView
+        android:id="@+id/list1"
+        android:divider="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_data"
+        android:layout_above="@id/btn_back"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"/>
+
+    <ImageView
+        android:id="@+id/rec2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/list1"
+        android:layout_alignLeft="@id/list1"
+        android:layout_alignRight="@id/list1"
+        android:background="@drawable/opacity_gradation2"/>
+
+    <ImageView
+        android:id="@+id/rec3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/list1"
+        android:layout_alignLeft="@id/list1"
+        android:layout_alignRight="@id/list1"
+        android:background="@drawable/opacity_gradation"/>
+</RelativeLayout>
